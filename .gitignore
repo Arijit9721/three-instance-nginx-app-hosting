@@ -1,0 +1,83 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+package-lock.json
+.yarn-integrity
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pm2.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.log
+
+# Build output
+dist/
+build/
+out/
+coverage/
+*.cache
+.cache-loader
+.next/
+.nuxt/
+.svelte-kit/
+.vercel/
+.netlify/
+functions/node_modules
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+docker-compose*.yml
+Dockerfile*
+
+# Nginx 
+nginx/logs/
+nginx/cache/
+nginx/conf.d/*.swp
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*.bak
+*.backup
+*.orig
+
+# Linux/macOS system files
+*.swp
+*.swo
+.profile
+.bashrc
+.zshrc
+.history
