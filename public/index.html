@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LifeTracker</title>
+</head>
+<body>  
+    
+    <nav class="navbar">
+        <div class="logo">
+           <a href="#" class="heading"><h1>LifeFinder</h1></a>
+        </div>
+    </nav>
+    <div class="birth">
+        <p class="form-heading">Enter your Birthday</p>
+        <form action="submit" class="birth-form">
+            <input type="search" name="day" placeholder="Enter Day" class="form_input" id="input">
+            <input type="search" name="month" placeholder="Enter Month" class="form_input" id="input">
+            <input type="search" name="year" placeholder="Enter Year" class="form_input" id="input">
+            <button type="submit"  class="submit">Submit</button>
+        </form>
+    </div>
+
+    <div id="details">
+        <p class="display-title">Your Life Will End On</p>
+        <p class="display-details" id="content">00 / 00 / 0000 </p>
+    </div>
+
+    <video id="background" autoplay loop muted 
+    src="Background/Live Background.mp4" type="video/mp4">
+    </video>
+    <script src="main.js"></script>
+</body>
+</html>
